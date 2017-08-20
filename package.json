@@ -1,23 +1,17 @@
 {
-  "name": "y",
+  "name": "build-a-portfolio-site",
   "version": "1.0.0",
-  "description": "Udacity Nanodegree Project 01",
+  "description": "An Udacity Nanodegree Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AdrianRen/Build-a-Portfolio-Site.git"
-  },
   "author": "Adrian_Ren <adrian.ren@outlook.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AdrianRen/Build-a-Portfolio-Site/issues"
-  },
-  "homepage": "https://github.com/AdrianRen/Build-a-Portfolio-Site#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.1"
+  },
+  "dependencies": {
     "grunt-responsive-images": "^1.10.1"
   }
 }
