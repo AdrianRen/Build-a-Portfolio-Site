@@ -17,7 +17,7 @@
 
 <body>
   <!-- Bootstrap Component: navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
     <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand" href="#">
         <img src="images/adrian_logo.png" width="30" height="30" alt="The logo of Adrian">
@@ -56,12 +56,15 @@
   </nav>
 
   <!-- Main Body -->
-  <div class="container mainBody">
+  <main class="container mainBody">
     <div class="row first-row">
       <div class="col-md-12">
         <img class="img-fluid"
-        src="images/queenstown.jpg"
-        srcset="images/queenstown-small.jpg 500w, images/queenstown-medium.jpg 1000w, images/queenstown.jpg 1500w"
+        src="images/queenstown-large.jpg"
+        srcset="images/queenstown-small.jpg 320w,
+                images/queenstown-medium.jpg 640w,
+                images/queenstown-large.jpg 1024w"
+        sizes = "100vw"
         alt="Evening scene in Queenstown New Zealand">
       </div>
     </div>
@@ -75,46 +78,67 @@
     <div class="row">
       <figure class="col-sm-12 col-md-6">
         <img src="images/01-large.jpg"
-        srcset="images/01-small.jpg 500w, images/01-medium.jpg 1000w, images/01-large.jpg 1500w"
+        srcset="images/01-small.jpg 320w,
+        images/01-medium.jpg 640w,
+        images/01-large.jpg 1024w"
+        sizes = "100vw"
         class="img-fluid"
-        alt="Auckland City">
+        alt="Image of Lake Wanaka">
         <figcaption class="text-md-left text-sm-center text-muted sub-titles">Lake Wanaka</figcaption>
       </figure>
 
       <figure class="col-sm-12 col-md-6">
         <img src="images/02-large.jpg"
-        srcset="images/02-small.jpg 500w, images/02-medium.jpg 1000w, images/02-large.jpg 1500w"
+        srcset="images/02-small.jpg 320w,
+        images/02-medium.jpg 640w,
+        images/02-large.jpg 1024w"
+        sizes = "100vw"
         class="img-fluid"
-        alt="Auckland City">
+        alt="Image of Mt. Cook">
         <figcaption class="text-md-left text-sm-center text-muted sub-titles">Mt. Cook</figcaption>
       </figure>
 
       <figure class="col-sm-12 col-md-6">
         <img src="images/03-large.jpg"
-        srcset="images/03-small.jpg 500w, images/03-medium.jpg 1000w, images/03-large.jpg 1500w"
+        srcset="images/03-small.jpg 320w,
+        images/03-medium.jpg 640w,
+        images/03-large.jpg 1024w"
+        sizes = "100vw"
         class="img-fluid"
-        alt="Auckland City">
+        alt="Image of Tauranga">
         <figcaption class="text-md-left text-sm-center text-muted sub-titles">Tauranga</figcaption>
       </figure>
 
       <figure class="col-sm-12 col-md-6">
         <img src="images/04-large.jpg"
-        srcset="images/04-small.jpg 500w, images/04-medium.jpg 1000w, images/04-large.jpg 1500w"
+        srcset="images/04-small.jpg 320w,
+        images/04-medium.jpg 640w,
+        images/04-large.jpg 1024w"
+        sizes = "100vw"
         class="img-fluid"
-        alt="Auckland City">
+        alt="Image of Wellington">
         <figcaption class="text-md-left text-sm-center text-muted sub-titles">Wellington</figcaption>
       </figure>
-    </div>
 
-  </div>
+      <div class="col-md-12 text-right text-muted declaration">
+        <p>*All images were downloaded from Google Images</p>
+      </div>
+    </div>
+  </main>
+
   <!-- footer -->
   <footer class="footer">
     <div class="container">
-      <span class="text-muted">
-      Made with <i class="fa fa-heart" aria-hidden="true" style="color: red;"></i>️ by Adrian Ren
-    </span>
+      <div class="row">
+        <div class="col-md-12">
+          <span class="text-muted">
+            Made with <i class="fa fa-heart heart-icon" aria-hidden="true"></i>️ by Adrian Ren
+          </span>
+        </div>
+      </div>
     </div>
   </footer>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
