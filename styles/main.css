@@ -52,10 +52,17 @@ body > nav {
 
 .sub-titles {
   font-size: 1.5rem;
-  padding-top: 0.5rem;
+  margin-top: .5rem;
 }
+
 @media screen and (max-width:768px) {
   .sub-titles {
     font-size: 1rem;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1060px){
+  .sub-titles {
+    padding-left: 1rem;
   }
 }
