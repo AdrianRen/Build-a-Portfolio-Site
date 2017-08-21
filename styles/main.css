@@ -34,3 +34,28 @@ body > nav {
   background-color: #f8f9fa;
   text-align: center;
 }
+
+@media screen and (max-width:412px) {
+  .primary-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:413px) and (max-width:768px) {
+  .primary-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+
+.sub-titles {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+}
+@media screen and (max-width:768px) {
+  .sub-titles {
+    font-size: 1rem;
+  }
+}
